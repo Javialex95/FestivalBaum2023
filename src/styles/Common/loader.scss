@@ -1,0 +1,60 @@
+.loader_container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+
+  /* common */
+  .loading {
+    font-size: 44px;
+    text-align: center;
+    span {
+      display: inline-block;
+      //   margin: 0 -0.05em;
+    }
+  }
+
+  /* code #1 */
+  .loading01 {
+    span {
+      animation: loading01 1.4s infinite alternate;
+      text-shadow: 0px 0px 6px #f6f6f6;
+
+      @for $i from 0 through 6 {
+        &:nth-child(#{$i + 1}) {
+          animation-delay: #{$i * 0.1}s;
+        }
+      }
+    }
+  }
+  @keyframes loading01 {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+.hide_loader {
+  animation: hide 1s forwards 0.5s;
+
+  @keyframes hide {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}

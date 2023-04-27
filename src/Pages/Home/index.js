@@ -1,0 +1,5 @@
+export * from './Banner/HomeBanner'
+export * from './Lineup/HomeLineup'
+export * from './Entradas/HomeEntradas'
+export * from './Galeria/Galeria'
+export * from './Faqs/HomeFaqs'

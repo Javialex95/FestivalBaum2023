@@ -1,0 +1,114 @@
+&_entradas {
+  padding-top: 50px;
+  background-color: #09090983;
+
+  .max_width_container_2 {
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 85%;
+  }
+  h1 {
+    padding-bottom: 20px;
+  }
+  .container_entradas {
+    .entradas {
+      border: 1px solid $white;
+      box-shadow: 0px 0px 10px #ffffff;
+      padding: 30px 10px;
+
+      @media (min-width: 999px) {
+        padding: 30px 70px;
+      }
+
+      p {
+        font-family: "Freizeit ExtraLight";
+      }
+      .entrada {
+        padding-bottom: 25px;
+        line-height: 25px;
+        span,
+        p {
+          font-size: 18px;
+        }
+
+        .etapa {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 85%;
+          max-width: 250px;
+        }
+      }
+      @media (min-width: 999px) {
+        .backstage {
+          display: flex;
+          justify-content: center;
+
+          p{
+            margin-left: 10px;
+          }
+        }
+
+        .etapas {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+
+          .entrada {
+            width: 45%;
+          }
+        }
+      }
+    }
+
+    .button {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-end;
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        max-width: 400px;
+
+        .principal_button {
+          width: 100%;
+          text-align: center;
+        }
+
+        a {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .container_alcancias {
+    padding-top: 50px;
+    width: 70%;
+
+    @media (min-width: 999px) {
+      width: 100%;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .principal_button {
+      width: 100%;
+      text-align: center;
+
+      @media (min-width: 999px) {
+        width: fit-content;
+        margin: 0px auto;
+      }
+    }
+
+    p {
+      padding: 20px 0;
+    }
+  }
+}

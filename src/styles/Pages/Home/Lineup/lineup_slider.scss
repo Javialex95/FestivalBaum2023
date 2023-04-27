@@ -1,0 +1,235 @@
+.slider {
+  margin-top: 60px;
+  position: relative;
+
+  .container {
+    width: 80%;
+    margin: 0px auto;
+
+    h3 {
+      text-align: center;
+      transition: 1s all;
+      z-index: 10;
+      width: fit-content;
+      margin: 0px auto;
+      margin-bottom: 30px;
+    }
+
+    .dots {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      transition: 0.5s all;
+
+      .dot {
+        width: 45%;
+        margin-bottom: 20px;
+        font-size: 13px;
+      }
+    }
+
+    @media (min-width: 999px) {
+      width: 100%;
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .dots {
+        width: 68%;
+        justify-content: flex-start;
+        .dot {
+          width: 30%;
+          cursor: pointer;
+          transition: 0.5s all;
+          margin-bottom: 10px;
+          min-width: 270px;
+          margin-right: 20px;
+          p {
+            transition: 0.5s all;
+            padding: 5px 10px;
+            width: fit-content;
+            font-size: 13px;
+
+            &:hover {
+              border: 1px solid white;
+              background: #ffffff40 0% 0% no-repeat padding-box;
+              backdrop-filter: blur(30px);
+              -webkit-backdrop-filter: blur(30px);
+            }
+          }
+        }
+
+        .active {
+          p {
+            border: 1px solid white;
+            background: #ffffff40 0% 0% no-repeat padding-box;
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+          }
+        }
+      }
+    }
+  }
+
+  .slides {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid $white;
+    box-shadow: 0px 0px 6px #ffffff;
+    padding: 30px;
+    min-height: 500px;
+    z-index: 5;
+    transition: 0.5s all;
+
+    @media (min-width: 999px) {
+      visibility: visible;
+      opacity: 1;
+      position: relative;
+      top: 0;
+      width: 30%;
+      min-height: initial;
+      max-height: 400px;
+      // transform: translate(0, -60px);
+    }
+
+    .close {
+      position: absolute;
+      width: 30px;
+      right: 5%;
+      top: 5%;
+      z-index: 15;
+    }
+
+    h2 {
+      font-size: 23px;
+      margin-top: 50px;
+
+      @media (min-width: 999px) {
+        margin-top: 10px;
+      }
+    }
+
+    .descripcion {
+      margin-top: 20px;
+      position: relative;
+      z-index: 2;
+
+      @media (min-width: 999px) {
+        font-size: 12px;
+      }
+    }
+
+    .imagen {
+      width: 60%;
+      height: 50%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      img {
+        display: block;
+        height: 100%;
+        object-fit: contain;
+        object-position: right;
+      }
+    }
+
+    .social {
+      display: flex;
+      z-index: 15;
+      right: 10%;
+      justify-content: space-between;
+      align-items: center;
+      width: 115px;
+      padding-top: 15px;
+      @media (min-width: 999px) {
+        margin-bottom: 180px;
+      }
+
+      a {
+        width: 25px;
+        height: 25px;
+        padding: initial;
+
+        img {
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+        }
+      }
+    }
+
+    .botones {
+      left: 0;
+      position: absolute;
+      right: 0%;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      bottom: 2%;
+      margin: 0px auto;
+
+      .next,
+      .prev {
+        width: 40px;
+        position: relative;
+        cursor: pointer;
+        .boton_hover {
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transition: 0.5s all;
+        }
+
+        &:hover {
+          .boton_hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.slider:nth-child(3) {
+  .container {
+    @media (min-width: 999px) {
+      .flex {
+        flex-direction: row-reverse;
+
+        .dots {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}
+
+.sliderActive {
+  height: 500px;
+
+  .slides {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .dots {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  h3 {
+    transform: translate(0px, 85px);
+    position: relative;
+    z-index: 5;
+  }
+}

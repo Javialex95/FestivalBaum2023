@@ -1,0 +1,368 @@
+[
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Lorem ipsum dolor",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 1",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+
+    {
+        "nombre": "Nombre de Artista un poco largo 2",
+        "dia": 1,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    
+
+
+    {
+        "nombre": "Nombre de Artista DIA 2 un poco largo 1",
+        "dia": 2,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista DIA 2 un poco largo 2",
+        "dia": 2,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista DIA 2 un poco largo 3",
+        "dia": 2,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    },
+    {
+        "nombre": "Nombre de Artista DIA 2 un poco largo 4",
+        "dia": 2,
+        "descripcion": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.",
+        "spotify": "",
+        "instagram": "",
+        "soundcloud": "",
+        "imagen": "/assets/artista.png"
+    }
+]

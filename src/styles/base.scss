@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Freizeit Regular";
+  background-color: #292929;
+  color: #f6f6f6;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.principal_content{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show_principal{
+  animation: show_principal 1s forwards 1.5s;
+
+  @keyframes show_principal {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+h1 {
+  text-shadow: 0px 0px 6px #f6f6f6;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  @media (min-width: 999px) {
+    font-size: 50px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+
+  @media (min-width: 999px) {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+
+  @media (min-width: 999px) {
+    font-size: 30px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+p,
+a {
+  font-size: 13px;
+
+  @media (min-width: 999px) {
+    font-size: 18px;
+  }
+}
+
+.max_width_container {
+  width: 85%;
+  margin: 0px auto;
+  max-width: 1500px;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+button,
+.button_a {
+  width: fit-content;
+  display: block;
+  padding: 8px 30px;
+  background: none;
+  color: white;
+  border: none;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.principal_button {
+  background: #ffffff55;
+  border: 2px solid #ffffff;
+  opacity: 1;
+  box-shadow: 0px 0px 6px #ffffff;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+
+  &:hover {
+    background: #ffffff9d;
+  }
+}
+
+.secondary_button {
+  box-shadow: 0px 0px 6px #ffffff;
+  border: 2px solid #ffffff;
+
+  &:hover {
+    background: #ffffff4f;
+  }
+}
+.tertiary_button {
+  color: #ffffff;
+  text-shadow: 0px 0px 6px #ffffff;
+  text-decoration: underline;
+  transition: 0.5s all;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

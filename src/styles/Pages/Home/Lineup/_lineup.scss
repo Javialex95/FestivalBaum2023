@@ -1,0 +1,17 @@
+&_lineup {
+  h1 {
+    span{
+      font-size: 12px;
+      display: block;
+      width: fit-content;
+      text-align: center;
+      padding-top: 1px;
+      margin: 0px auto;
+      @media (min-width: 999px){
+        display: none;
+      }
+    }
+  }
+
+  @import "./lineup_slider.scss";
+}

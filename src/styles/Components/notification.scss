@@ -1,0 +1,69 @@
+.notification {
+  position: fixed;
+  background-color: black;
+  right: 0.5%;
+  bottom: 5%;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  z-index: 100;
+
+  transition: 2s all;
+  transform: translate(100vw, 0);
+  animation: notification 15s forwards 2s;
+
+  @keyframes notification {
+    0% {
+      transform: translate(100vw, 0);
+    }
+
+    20% {
+      transform: translate(0vw, 0);
+    }
+
+    80% {
+      transform: translate(0vw, 0);
+    }
+
+    100% {
+      transform: translate(100vw, 0);
+    }
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  a {
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+
+  img {
+    width: 30px;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    top: 5%;
+  }
+}
+
+.hideNotification {
+  animation: Hidenotification 2s forwards;
+
+  @keyframes Hidenotification {
+    0% {
+      transform: translate(0vw, 0);
+    }
+
+    100% {
+      transform: translate(100vw, 0);
+    }
+  }
+}
