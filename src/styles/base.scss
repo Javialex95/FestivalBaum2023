@@ -31,12 +31,12 @@ body {
   background: #555;
 }
 
-.principal_content{
+.principal_content {
   opacity: 0;
   visibility: hidden;
 }
 
-.show_principal{
+.show_principal {
   animation: show_principal 1s forwards 1.5s;
 
   @keyframes show_principal {
@@ -88,6 +88,14 @@ p,
 a {
   font-size: 13px;
 
+  @media (min-width: 999px) {
+    font-size: 18px;
+  }
+}
+
+li {
+  font-size: 12px;
+  margin: 15px;
   @media (min-width: 999px) {
     font-size: 18px;
   }

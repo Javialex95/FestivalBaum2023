@@ -1,6 +1,8 @@
 .accordion {
   position: relative;
+  margin-top: 30px;
   .accordion-item-title {
+    
     border-bottom: 0;
     padding: 10px 0px;
     font-size: 16px;
@@ -26,10 +28,10 @@
     }
   }
 
-  .accodion-item:last-child {
-    .accordion-item-title {
-    }
-  }
+  // .accodion-item:last-child {
+  //   .accordion-item-title {
+  //   }
+  // }
 
   .plus,
   .less {
@@ -51,8 +53,8 @@
       background-position: center;
       background-size: cover;
     }
-    .accordion-item-title {
-    }
+    // .accordion-item-title {
+    // }
     .accordion-item-body {
       height: auto;
       padding: 15px 5px;

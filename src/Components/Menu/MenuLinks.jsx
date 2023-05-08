@@ -58,6 +58,17 @@ export const MenuLinks = () => {
         Galería
       </Link>
       <Link
+        to="home_cashless"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={velocity}
+        onClick={toggleMenu}
+      >
+        Precarga Cashless
+      </Link>
+
+      <Link
         to="home_faqs"
         spy={true}
         smooth={true}
