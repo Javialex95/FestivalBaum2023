@@ -1,15 +1,15 @@
-import { useTickets } from "../../../Hooks/useTickets";
+import PriceTables from "../../../Common/PriceTables";
 
 export const HomeEntradas = ({
   entradas,
+  backstage_precio_individual,
+  entradas_individual,
   backstage_precio,
   link_entradas,
   link_entradas_internacional,
   alcancias_descripcion,
   alcancia_link,
 }) => {
-  const { vip, general } = useTickets(entradas);
-
   return (
     <section className="home_entradas" id="home_entradas">
       <div className="max_width_container">
@@ -17,36 +17,22 @@ export const HomeEntradas = ({
       </div>
       <div className="max_width_container_2">
         <div className="container_entradas">
-          <div className="entradas">
-            <div className="entrada backstage">
-              <span>Combos Backstage:</span>
-              <p>{backstage_precio}</p>
-            </div>
-
-            <div className="etapas">
-              <div className="entrada vip ">
-                <span>Combos VIP:</span>
-
-                {vip.map((etapa, i) => (
-                  <div key={`etapa_vip_${i}`} className="etapa">
-                    <span>Etapa {etapa.etapa} :</span>
-                    <p>{etapa.precio}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="entrada general ">
-                <span>Combos General:</span>
-
-                {general.map((etapa, i) => (
-                  <div key={`etapa_general_${i}`} className="etapa">
-                    <span>Etapa {etapa.etapa} :</span>
-                    <p>{etapa.precio}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          <h3 className="title_two">Individuales por días</h3>
+          <PriceTables
+            backstage_precio={backstage_precio_individual}
+            entradas={entradas_individual}
+            title="Backstage:"
+            title_vip="VIP:"
+            title_general="General:"
+          />
+          <h3 className="title_two">Combos</h3>
+          <PriceTables
+            backstage_precio={backstage_precio}
+            entradas={entradas}
+            title="Combos Backstage:"
+            title_vip="Combos VIP:"
+            title_general="Combos General:"
+          />
 
           <div className="button">
             <div className="buttons">
